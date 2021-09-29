@@ -1,0 +1,122 @@
+*{
+    padding:0%;
+    margin: 0%;
+}
+
+.row{
+    width: 100%;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+img{
+    width: 100%;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+.col-12{
+    width: 100%;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+
+#contact{
+    text-align: center;
+}
+
+#titulo{
+    text-align: center;
+}
+
+.card{
+    width: 18rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.gray{
+    background-color: #6C757B;
+    color: white;
+    margin: 3px;
+}
+img{
+    object-fit: contain;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.ovr{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    border-radius: 8px;
+}
+.canc{
+    background-color: #F9575A;
+    color: black;
+    margin: 3px;
+    border-radius: 8px;
+}
+
+.conf{
+    background-color: #F1EADF;
+    border: 2px solid #000 !important; 
+    color: black;
+    margin: 3px;
+    border-radius: 8px;
+} 
+
+#carroImg{
+    height: 40px;
+    width: auto;
+}
+
+#logo{
+    font-family: 'Satisfy', cursive;
+}
+
+.row{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#rusure
+{
+    padding-left: 20px;
+}
+
+button span.text{
+    padding: 20px;
+}
+
+div.d-flex button{
+    margin-top: 15px;
+}
+
+div.d-flex button.canc{
+    margin-bottom: 25px;
+}
+
+.sep{
+    border-bottom: 2px solid lightgray !important; 
+}
+
+#x{
+    font-size: 25pt;
+    color: gray;
+}
