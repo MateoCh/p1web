@@ -183,7 +183,7 @@ function disp()
         let desc = document.createElement("p");
         let pr = document.createElement("p");
         let extra = document.createElement("div");
-        card.className="card h-100 col";
+        card.className="card col d-flex align-items-stretch";
         cardB.className="card-body";
         img.className="card-img-top";
         nam.className="card-title";
@@ -216,7 +216,7 @@ function disp()
         })
         let but = document.createElement("button")
         but.id="c"+ind;
-        but.className="btn btn-dark"
+        but.className="btn btn-dark mt-auto"
         but.type="button";
         but.innerHTML="Add to car";
         but.onclick=addCar;

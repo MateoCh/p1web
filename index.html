@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EjercicioPreParcial</title>
+    <title>Restaurant & lounge</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
@@ -16,56 +16,55 @@
     />
   </head>
   <body>
-    <div class="container-fluid">
-        <div class="row sep">
-            <h1 class="col-8" id="logo">Restaurant & Lounge</h1>
-            <img class="col-1" onclick="goToCar()" src="/imgs/carro.png"  id="carroImg" alt="">
-            <p class="col-3" id="numCar">0 items</p>
-        </div>
+    <div class="row sep">
+        <h1 class="col-10" id="logo">Restaurant & Lounge</h1>
+        <img class="col-1" onclick="goToCar()" src="/imgs/carro.png"  id="carroImg" alt="">
+        <p class="col-1" id="numCar">0 items</p>
+    </div>
+    <div class="container-sm">
         <div class="row sep">
             <div class="col-12">
                 <img src="/imgs/banner.png" alt="">
             </div>
         </div>
-        <div></div>
-    
-        <div class="row sep">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <div class="collapse navbar-collapse" id="navbarNav" >
-                        <ul class="navbar-nav" id="tipos"></ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-
-        <div id="overlay">
-            <div class="container ovr">
-                <div class="row sep">
-                    <div class="col-11">
-                        Cancel the order
-                    </div>
-                    <div class="col-1" onclick="off()" id="x">
-                        <strong>x</strong> 
-                    </div>
-                </div>
-                <div class="row sep" id="rusure"> Are you sure about cancelling the order?</div>
-                <div class="d-flex flex-row-reverse">
-                    <button class="conf" onclick="cancelOrder()"><span class="text">Yes, I want to cancel the order</span></button>
-                </div>
-                <div class="d-flex flex-row-reverse">
-                    <button class="canc" onclick="off()"><span class="text">No, I want to continue adding products</span></button>
-                </div>
-            </div>
-        </div>
-        <div class="row sep"><div class="col-12">
-            <h1 id="titulo"></h1>
-        </div></div>
-        
-        <div class="row" id="productos"></div>
-    
-        <div class="row"><div class="col-12" id="contact">Contact us:+57 3102105253 - info@restarutant.com - @restarutant</div></div>
     </div>
+
+    <div class="row sep">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="navbarNav" >
+                    <ul class="navbar-nav" id="tipos"></ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div id="overlay">
+        <div class="container ovr">
+            <div class="row sep">
+                <div class="col-11">
+                    Cancel the order
+                </div>
+                <div class="col-1" onclick="off()" id="x">
+                    <strong>x</strong> 
+                </div>
+            </div>
+            <div class="row sep" id="rusure"> Are you sure about cancelling the order?</div>
+            <div class="d-flex flex-row-reverse">
+                <button class="conf" onclick="cancelOrder()"><span class="text">Yes, I want to cancel the order</span></button>
+            </div>
+            <div class="d-flex flex-row-reverse">
+                <button class="canc" onclick="off()"><span class="text">No, I want to continue adding products</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="row sep"><div class="col-12">
+        <h1 id="titulo"></h1>
+    </div></div>
+    
+    <div class="row" id="productos"></div>
+
+    <div class="row"><div class="col-12" id="contact">Contact us:+57 3102105253 - info@restarutant.com - @restarutant</div></div>
     
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
