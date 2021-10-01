@@ -18,13 +18,13 @@
   <body>
     <div class="row sep">
         <h1 class="col-10" id="logo">Restaurant & Lounge</h1>
-        <img class="col-1" onclick="goToCar()" src="/imgs/carro.png"  id="carroImg" alt="">
+        <img class="col-1" onclick="goToCar()" src="/imgs/carro.png"  id="carroImg" alt="carrito">
         <p class="col-1" id="numCar">0 items</p>
     </div>
     <div class="container-sm">
         <div class="row sep">
             <div class="col-12">
-                <img src="/imgs/banner.png" alt="">
+                <img src="/imgs/banner.png" alt="banner">
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
             </div>
             <div class="row sep" id="rusure"> Are you sure about cancelling the order?</div>
             <div class="d-flex flex-row-reverse">
-                <button class="conf" onclick="cancelOrder()"><span class="text">Yes, I want to cancel the order</span></button>
+                <button class="conf" id="cancelOrd"><span class="text">Yes, I want to cancel the order</span></button>
             </div>
             <div class="d-flex flex-row-reverse">
                 <button class="canc" onclick="off()"><span class="text">No, I want to continue adding products</span></button>
@@ -62,7 +62,9 @@
         <h1 id="titulo"></h1>
     </div></div>
     
-    <div class="row" id="productos"></div>
+    <div class="container-fluid">
+        <div class="row" id="productos"></div>
+    </div>
 
     <div class="row"><div class="col-12" id="contact">Contact us:+57 3102105253 - info@restarutant.com - @restarutant</div></div>
     

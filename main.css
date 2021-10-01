@@ -7,12 +7,18 @@
     width: 100%;
     padding-right: 0%;
     margin-right: 0%;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
+
 img{
     width: 100%;
+    height: auto;
+    object-fit: contain;
     padding-right: 0%;
     margin-right: 0%;
 }
+
 .col-12{
     width: 100%;
     padding-right: 0%;
@@ -26,6 +32,7 @@ img{
 #titulo{
     text-align: center;
 }
+
 
 .card{
     width: 18rem;
@@ -46,11 +53,7 @@ img{
     color: white;
     margin: 3px;
 }
-img{
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-}
+
 
 #overlay {
     position: fixed; /* Sit on top of the page content */
@@ -98,11 +101,6 @@ img{
 
 #logo{
     font-family: 'Satisfy', cursive;
-}
-
-.row{
-    padding-bottom: 20px;
-    padding-top: 20px;
 }
 
 #rusure
